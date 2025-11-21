@@ -1,75 +1,80 @@
-# 📊 Statistics from Beginner to Advanced
+# Types of Statistics
 
-Welcome to the **Statistics from Beginner to Advanced** repository — a complete learning journey designed to guide you from the fundamentals of statistics all the way to advanced analytical concepts used in data science, machine learning, and research.
-
-Whether you're a beginner starting from zero or an experienced learner strengthening your foundation, this repository offers a clear, structured, and practical path to mastering statistics.
+Statistics is the science of collecting, analyzing, interpreting, and presenting data. Broadly, it is divided into **Descriptive Statistics** and **Inferential Statistics**. Understanding these types is fundamental for data analysis, predictive modeling, and decision-making.
 
 ---
 
-## 🔍 About This Repository
+## 1. Descriptive Statistics
 
-This repository is built as a **comprehensive reference and learning hub**.  
-It covers statistical concepts in a progressive, easy-to-understand format, moving from basic ideas to advanced applications.
+Descriptive statistics **organize, summarize, and present data** in a meaningful way. This is typically done through:
 
-You will find clear explanations, examples, visualizations, formulas, and real-world interpretations across topics such as:
+- **Tables** – arranging data in rows and columns for easy reference.
+- **Graphs** – visual representation using bar charts, histograms, pie charts, etc.
+- **Summary measures** – numerical summaries such as mean, median, mode, variance, and standard deviation.
 
-- **Basic Statistical Concepts** (mean, median, mode, variance, standard deviation)
-- **Probability Theory** (rules, distributions, independence, Bayes’ theorem)
-- **Descriptive & Inferential Statistics**
-- **Sampling Techniques & Confidence Intervals**
-- **Hypothesis Testing** (t-tests, chi-square, ANOVA, etc.)
-- **Correlation & Regression Analysis**  
-  - Linear regression  
-  - Multiple regression  
-  - Logistic regression  
-  - Model assumptions & diagnostics
-- **Statistical Distributions** (normal, binomial, Poisson, exponential, etc.)
-- **Time Series Basics**
-- **Advanced Statistical Methods** (MLE, likelihood, covariance structures, etc.)
+### Example
 
----
+Suppose we have the exam scores of 10 students:
 
-## 🎯 Purpose of This Repository
+| Student | Score |
+|---------|-------|
+| A       | 85    |
+| B       | 90    |
+| C       | 78    |
+| D       | 92    |
+| E       | 88    |
+| F       | 76    |
+| G       | 95    |
+| H       | 89    |
+| I       | 84    |
+| J       | 91    |
 
-The goal of this project is to provide:
+- **Mean (Average):**  
+\[
+\text{Mean} = \frac{85 + 90 + 78 + 92 + 88 + 76 + 95 + 89 + 84 + 91}{10} = 86.8
+\]
 
-- A **step-by-step learning path** from beginner to advanced.
-- A **clean and organized reference** for students, analysts, and developers.
-- Practical examples with explanations that make concepts easy to understand.
-- A resource you can revisit anytime during data science or academic work.
+- **Median (Middle Value):** 88.5  
+- **Mode (Most Frequent):** No repeated value → Mode = None  
+- **Standard Deviation (Spread of data):** ≈ 6.3
 
----
-
-## 📚 Who Is This For?
-
-- Students learning statistics for the first time  
-- Data analysts & data scientists  
-- Machine learning engineers  
-- Researchers who rely on statistical inference  
-- Anyone who wants to understand data more deeply  
+**Visual Example:**  
+A histogram could show the distribution of scores, giving a quick sense of performance.
 
 ---
 
-## 🚀 Future Additions
+## 2. Inferential Statistics
 
-This repository will continue expanding with:
+Inferential statistics **use sample data to make predictions or decisions about a population**. Unlike descriptive statistics, which only describe, inferential statistics allow us to **generalize results** and **estimate uncertainty**.
 
-- Code examples (Python, R)  
-- Visualizations  
-- Real-world statistical problems  
-- Practice exercises  
-- Mini-projects for hands-on learning  
+Common methods include:
+
+- **Hypothesis testing** – e.g., testing if a new drug is effective.  
+- **Confidence intervals** – estimating population parameters with a margin of error.  
+- **Regression analysis** – predicting outcomes based on input variables.  
+- **ANOVA (Analysis of Variance)** – comparing means of multiple groups.
+
+### Example
+
+Suppose a factory produces light bulbs, and we test a **sample of 50 bulbs** to check their average lifespan:
+
+- Sample mean lifespan: 980 hours  
+- Sample standard deviation: 20 hours  
+- Population unknown  
+
+We can use a **95% confidence interval** to infer the average lifespan of all bulbs:
+
+\[
+\text{CI} = \bar{x} \pm Z \frac{s}{\sqrt{n}} = 980 \pm 1.96 \frac{20}{\sqrt{50}} \approx 980 \pm 5.5
+\]
+
+**Interpretation:** We are 95% confident that the true average lifespan of all bulbs is between **974.5 hours and 985.5 hours**.
 
 ---
 
-## 🤝 Contributions
+**Summary Table:**
 
-Contributions, corrections, enhancements, and ideas are always welcome.  
-Feel free to open an issue or submit a pull request!
-
----
-
-## ⭐ Support
-
-If you find this repository useful, consider giving it a **star** ⭐ to support its growth!
-
+| Type of Statistics     | Purpose                                         | Key Tools & Methods                  | Example                                 |
+|-----------------------|-------------------------------------------------|------------------------------------|----------------------------------------|
+| Descriptive           | Summarize and describe data                    | Tables, graphs, mean, median, SD   | Exam scores summary                     |
+| Inferential           | Make predictions or decisions about population | Hypothesis testing, CI, regression | Estimating average lifespan of bulbs   |
