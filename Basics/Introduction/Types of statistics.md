@@ -1,75 +1,79 @@
-# 📊 Statistics from Beginner to Advanced
+# Types of Statistics
 
-Welcome to the **Statistics from Beginner to Advanced** repository — a complete learning journey designed to guide you from the fundamentals of statistics all the way to advanced analytical concepts used in data science, machine learning, and research.
-
-Whether you're a beginner starting from zero or an experienced learner strengthening your foundation, this repository offers a clear, structured, and practical path to mastering statistics.
-
----
-
-## 🔍 About This Repository
-
-This repository is built as a **comprehensive reference and learning hub**.  
-It covers statistical concepts in a progressive, easy-to-understand format, moving from basic ideas to advanced applications.
-
-You will find clear explanations, examples, visualizations, formulas, and real-world interpretations across topics such as:
-
-- **Basic Statistical Concepts** (mean, median, mode, variance, standard deviation)
-- **Probability Theory** (rules, distributions, independence, Bayes’ theorem)
-- **Descriptive & Inferential Statistics**
-- **Sampling Techniques & Confidence Intervals**
-- **Hypothesis Testing** (t-tests, chi-square, ANOVA, etc.)
-- **Correlation & Regression Analysis**  
-  - Linear regression  
-  - Multiple regression  
-  - Logistic regression  
-  - Model assumptions & diagnostics
-- **Statistical Distributions** (normal, binomial, Poisson, exponential, etc.)
-- **Time Series Basics**
-- **Advanced Statistical Methods** (MLE, likelihood, covariance structures, etc.)
+Statistics is divided into two main categories: **Descriptive Statistics** and **Inferential Statistics**.  
+Each category has a different purpose and helps us understand data in a different way.
 
 ---
 
-## 🎯 Purpose of This Repository
+## 1. Descriptive Statistics
 
-The goal of this project is to provide:
+Descriptive statistics help you **summarize, organize, and display data**.  
+They do **not** make predictions — they only describe what is currently in front of you.
 
-- A **step-by-step learning path** from beginner to advanced.
-- A **clean and organized reference** for students, analysts, and developers.
-- Practical examples with explanations that make concepts easy to understand.
-- A resource you can revisit anytime during data science or academic work.
+### What descriptive statistics include:
+- Tables  
+- Charts and graphs  
+- Measures like average, minimum, maximum, and standard deviation  
+
+### Example
+
+Imagine you collected test scores from 10 students:
+
+| Student | Score |
+|---------|-------|
+| A | 85 |
+| B | 90 |
+| C | 78 |
+| D | 92 |
+| E | 88 |
+| F | 76 |
+| G | 95 |
+| H | 89 |
+| I | 84 |
+| J | 91 |
+
+Using descriptive statistics, we can say:
+
+- The **average** score is **86.8**  
+- The **highest** score is **95**  
+- The **lowest** score is **76**  
+- The **scores are mostly between 84 and 92**  
+- A simple chart could show how the scores are distributed
+
+These results only describe the group we already have — nothing more.
 
 ---
 
-## 📚 Who Is This For?
+## 2. Inferential Statistics
 
-- Students learning statistics for the first time  
-- Data analysts & data scientists  
-- Machine learning engineers  
-- Researchers who rely on statistical inference  
-- Anyone who wants to understand data more deeply  
+Inferential statistics help you **take a small sample of data** and use it to **make decisions or predictions** about a much larger group (the population).
 
----
+### What inferential statistics include:
+- Estimating population values  
+- Predicting future outcomes  
+- Testing ideas (hypothesis testing)  
+- Confidence intervals  
+- Regression and modeling  
 
-## 🚀 Future Additions
+### Example
 
-This repository will continue expanding with:
+A company tests **50 light bulbs** to estimate the average lifespan of all the bulbs it produces.
 
-- Code examples (Python, R)  
-- Visualizations  
-- Real-world statistical problems  
-- Practice exercises  
-- Mini-projects for hands-on learning  
+From this small sample, inferential statistics help them:
 
----
+- Estimate the **average lifespan** of all their bulbs  
+- Decide whether their production quality is good or needs improvement  
+- Predict performance of future bulbs  
+- Understand how certain they are about their estimate  
 
-## 🤝 Contributions
-
-Contributions, corrections, enhancements, and ideas are always welcome.  
-Feel free to open an issue or submit a pull request!
+They are not describing the sample — they are using the sample to understand the **whole population**.
 
 ---
 
-## ⭐ Support
+## Summary Table
 
-If you find this repository useful, consider giving it a **star** ⭐ to support its growth!
+| Type | What it does | Example |
+|------|--------------|---------|
+| **Descriptive Statistics** | Describes data you already have | Summarizing student test scores |
+| **Inferential Statistics** | Uses a sample to make decisions or predictions about a population | Predicting average light bulb lifespan |
 
